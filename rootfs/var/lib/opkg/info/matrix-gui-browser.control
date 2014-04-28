@@ -1,0 +1,13 @@
+Package: matrix-gui-browser
+Version: 2.0-r1
+Description: matrix-gui-browser version 2.0-r1
+ Simple Qt web display using webkit
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon-2.6.33
+OE: matrix-gui-browser
+Homepage: https://gitorious.org/matrix-gui-v2/matrix_browser
+Depends: libqtwebkite4 (>= 4.8.3), libqtcoree4 (>= 4.8.3), glibc (>= 2.12.2), libqtguie4 (>= 4.8.3), libstdc++6 (>= 4.5.3), libqtnetworke4 (>= 4.8.3), libgcc-s1 (>= 4.5.3), qt4-embedded-fonts
+Source: git://gitorious.org/matrix-gui-v2/matrix_browser.git;protocol=git;branch=master

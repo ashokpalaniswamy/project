@@ -1,0 +1,13 @@
+Package: rt-tests
+Version: 0.84-r1.0
+Description: rt-tests version 0.84-r1.0
+ Real-Time preemption testcases
+Section: tests
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & GPLv2+
+Architecture: armv7a-vfp-neon-2.6.33
+OE: rt-tests
+Homepage: https://rt.wiki.kernel.org/index.php/Cyclictest
+Depends: glibc (>= 2.12.2)
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/clrkwllms/rt-tests.git file://0001-rt-tests-Allow-for-user-specified-PYLIB.patch file://0002-rt-tests-Break-out-install_hwlatdetect.patch file://added-missing-dependencies.patch

@@ -1,0 +1,13 @@
+Package: ltp-ddt
+Version: legacy-1.0-r1.0-arago0+gitr1+1973c7e79f2ad1b595d5d1687db828f3f3998387
+Description: ltp-ddt version legacy-1.0-r1.0-arago0+gitr1+1973c7e79f2ad1b595d5d1687db828f3f3998387
+ Embedded Linux Device Driver Tests based on Linux Test Project
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am3517_evm
+OE: ltp-ddt
+Homepage: http://arago-project.org/git/projects/test-automation/ltp-ddt.git
+Depends: libasound2 (>= 1.0.25), glibc (>= 2.12.2)
+Source: git://arago-project.org/git/projects/test-automation/ltp-ddt.git;protocol=git;branch=v3.2

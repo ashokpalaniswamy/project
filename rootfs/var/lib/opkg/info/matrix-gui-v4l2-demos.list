@@ -1,0 +1,12 @@
+/usr/bin/runSaScalingDisplay.sh
+/usr/share/matrix-gui-2.0/apps/v4l2_scaling/desc_v4l2_scaling.html
+/usr/bin/runSaV4L2Rotation.sh
+/usr/share/matrix-gui-2.0/apps/v4l2_rotate/desc_v4l2_rotate.html
+/usr/share/matrix-gui-2.0/apps/v4l2_scaling/v4l2_scaling.desktop
+/usr/bin/runSaMmapDisplay.sh
+/usr/share/matrix-gui-2.0/apps/v4l2_scaling/
+/usr/share/matrix-gui-2.0/apps/v4l2_display/v4l2_display.desktop
+/usr/share/matrix-gui-2.0/apps/v4l2_display/desc_v4l2_display.html
+/usr/share/matrix-gui-2.0/apps/v4l2_display/
+/usr/share/matrix-gui-2.0/apps/v4l2_rotate/v4l2_rotate.desktop
+/usr/share/matrix-gui-2.0/apps/v4l2_rotate/

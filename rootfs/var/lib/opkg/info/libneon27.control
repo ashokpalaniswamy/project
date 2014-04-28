@@ -1,0 +1,13 @@
+Package: libneon27
+Version: 0.29.6-r2
+Description: neon version 0.29.6-r2
+ neon is an HTTP and WebDAV client library, with a C interface.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2+
+Architecture: armv7a-vfp-neon-2.6.33
+OE: neon
+Homepage: http://www.webdav.org/neon/
+Depends: libz1 (>= 1.2.7), libcap2 (>= 2.22), glibc (>= 2.12.2), libproxy (>= 0.4.7), libgnutls26 (>= 2.12.20), libtasn1-3 (>= 2.13), libgpg-error0 (>= 1.10), libgcrypt11 (>= 1.5.0), libexpat1 (>= 2.1.0)
+Source: http://www.webdav.org/neon/neon-0.29.6.tar.gz file://pkgconfig.patch

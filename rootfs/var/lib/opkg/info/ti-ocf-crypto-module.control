@@ -1,0 +1,14 @@
+Package: ti-ocf-crypto-module
+Version: 1.0-r123a+svnr17
+Description: ti-ocf-crypto-module version 1.0-r123a+svnr17
+ Builds Crypto module used by OCF-Linux driver in OpenSSL example
+ applications
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD & GPLv2
+Architecture: am3517_evm
+OE: ti-ocf-crypto-module
+Homepage: https://gforge.ti.com/gf/project/arm_crypto/
+Depends: update-modules, kernel-image-2.6.37
+Source: svn://gforge.ti.com/svn/arm_crypto/;module=trunk;protocol=https;user=anonymous;pswd=''

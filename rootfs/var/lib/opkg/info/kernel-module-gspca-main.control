@@ -1,0 +1,13 @@
+Package: kernel-module-gspca-main
+Version: 2.6.37-r0
+Description: linux-omap-psp version 2.6.37-r0
+ gspca-main kernel module; GSPCA USB Camera Driver
+Section: kernel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am3517_evm
+OE: linux-omap-psp
+Homepage: unknown
+Depends: update-modules, kernel-2.6.37
+Source: git://arago-project.org/git/projects/linux-omap3.git;protocol=git file://defconfig file://0001-linux-omap3-Add-OCF-support-to-2.6.37-kernel.patch file://0001-omap3evm-add-support-for-the-WL12xx-WLAN-module.patch file://0002-allow-selecting-WL12XX_PLATFROM_DATA-independently.patch file://0003-mmc-skip-detection-of-nonremovable-cards-on-rescan.patch file://0004-mmc-sdio-don-t-reinitialize-nonremovable-powered-res.patch file://0005-mmc-sdio-don-t-power-up-cards-on-system-suspend.patch file://0006-wl12xx-Backport-wl12xx-platform-data.patch file://0007-activate-wireless-extensions.patch file://0001-Fix-matrix-suspend.patch file://0001-OCF-support-remove-support-for-non-TI-hardware.patch file://0002-omap3_evm_defconfig-add-OCF-driver-support.patch file://0003-omap3_evm_defconfig-add-WLAN-config-options.patch file://0001-mt9t111-enable-clock-pad-register-in-configuration.patch file://0001-omap3evm-add-wake-on-wlan-support.patch file://0001-nlcp-sdio-fixes-for-wowlan-support.patch file://0002-mmc-sdio-support-suspend-resume-while-runtime-suspen.patch file://0003-mmc_card_keep_power-cleanups.patch file://0004-mmc-do-not-switch-to-1-bit-mode-if-not-required.patch file://0005-mmc-fix-division-by-zero-in-MMC-core.patch file://0006-revert-duplicate-insertion-of-mmc_card_keep_power-fu.patch file://0001-omap3-am3517evm-Allow-for-NAND-to-really-be-disabled.patch file://0002-omap3-am3517evm-Update-NOR-partition-table.patch file://0003-AM3517-Add-am3517_evn_nor_defconfig.patch file://0001-omap_hsmmc-make-default-dto-value-14.patch file://0001-am37x-Adding-ABB-Support-for-1GHz-OPP.patch file://0001-usb-musb-am35x-set-default-VBUS-timeout-value.patch file://0002-usb-musb-am35x-fix-role-switching-issue.patch file://0001-musb-update-PIO-mode-help-information-in-Kconfig.patch

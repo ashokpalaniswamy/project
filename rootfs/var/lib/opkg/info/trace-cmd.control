@@ -1,0 +1,13 @@
+Package: trace-cmd
+Version: 1.2+git1+7055ffd37beeb44714e86a4abc703f7e175a0db5-r3
+Description: trace-cmd version 1.2+git1+7055ffd37beeb44714e86a4abc703f7e175a0db5-r3
+ User interface to Ftrace
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & LGPLv2.1
+Architecture: armv7a-vfp-neon-2.6.33
+OE: trace-cmd
+Homepage: unknown
+Depends: glibc (>= 2.12.2)
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/trace-cmd.git;protocol=git file://addldflags.patch file://make-docs-optional.patch file://trace-cmd/blktrace-api-compatibility.patch

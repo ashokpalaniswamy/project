@@ -1,0 +1,13 @@
+Package: gst-plugins-bad-vcdsrc
+Version: 0.10.23-r2-arago3
+Description: gst-plugins-bad version 0.10.23-r2-arago3
+ GStreamer plugin for vcdsrc
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ & LGPLv2+ & LGPLv2.1+ 
+Architecture: armv7a-vfp-neon-2.6.33
+OE: gst-plugins-bad
+Homepage: http://gstreamer.freedesktop.org/
+Depends: gst-plugins-bad, libffi6 (>= 3.0.11), libxml2 (>= 2.8.0), glibc (>= 2.12.2), gstreamer (>= 0.10.36), libglib-2.0-0 (>= 2.32.4), libz1 (>= 1.2.7)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-0.10.23.tar.bz2 file://0001-gstfbdevsink-Fix-depth-value-for-GST_VIDEO_CAPS_RGB_.patch

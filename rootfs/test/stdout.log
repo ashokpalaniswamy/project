@@ -1,0 +1,23 @@
+Beginning Target Side Testing
+
+
+MANDATORY TESTS
+	(boottest.sh): PASSED
+	(check_app.sh -a runDhrystone): PASSED
+	(check_app.sh -a runLinpack): PASSED
+	(check_app.sh -a runWhetstone): PASSED
+	(check_app.sh -a /usr/bin/qtopia/examples/widgets/calculator/calculator -x): PASSED
+	(check_app.sh -a /usr/bin/qtopia/demos/deform/deform -x): PASSED
+	(check_app.sh -a /usr/bin/qtopia/examples/animation/animatedtiles/animatedtiles -x): PASSED
+	(check_app.sh -a /usr/bin/qtopia/examples/graphicsview/elasticnodes/elasticnodes -x): PASSED
+	(check_app.sh -a /usr/bin/qtopia/examples/animation/moveblocks/moveblocks -x): PASSED
+	(check-matrix-gui.sh): PASSED
+
+OPTIONAL TESTS
+	(check_app.sh -a "runOGLESVase.sh -qaf=1000"): FAILED
+	(check_app.sh -a "runOGLES2Coverflow.sh -qaf=1000"): FAILED
+	(check_app.sh -a "runOGLES2Shaders.sh -qaf=1000"): FAILED
+	(check_app.sh -a "runOGLES2ChameleonMan.sh -qaf=1000"): PASSED
+	(check-kernel-version.sh 2.6.37): PASSED
+	(check-psp-version.sh 04.02.00.07): FAILED
+

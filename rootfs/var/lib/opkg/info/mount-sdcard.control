@@ -1,0 +1,13 @@
+Package: mount-sdcard
+Version: 1.0-r0
+Description: mount-sdcard version 1.0-r0
+ Script to mount SD card partitions when available
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: mount-sdcard
+Homepage: unknown
+Depends: update-rc.d, udev
+Source: file://init

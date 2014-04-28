@@ -1,0 +1,13 @@
+Package: libsocketcan2
+Version: 0.0.8-r0
+Description: libsocketcan version 0.0.8-r0
+ Control basic functions in socketcan from userspace
+Section: libs/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1
+Architecture: armv7a-vfp-neon-2.6.33
+OE: libsocketcan
+Homepage: http://www.pengutronix.de
+Depends: glibc (>= 2.12.2)
+Source: git://git.pengutronix.de/git/tools/libsocketcan.git;protocol=git

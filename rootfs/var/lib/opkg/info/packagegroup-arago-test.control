@@ -1,0 +1,13 @@
+Package: packagegroup-arago-test
+Version: 1.0-r2
+Description: packagegroup-arago-test version 1.0-r2
+ Extended task to get System Test specific apps
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: packagegroup-arago-test
+Homepage: unknown
+Depends: lmbench, evtest, bc, rt-tests, hdparm, iperf, ltp-ddt, bonnie++, iozone3
+Source: None

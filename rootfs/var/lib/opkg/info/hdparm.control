@@ -1,0 +1,14 @@
+Package: hdparm
+Version: 9.39-r3
+Description: hdparm version 9.39-r3
+ hdparm is a Linux shell utility for viewing and manipulating various IDE
+ drive and driver parameters.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon-2.6.33
+OE: hdparm
+Homepage: unknown
+Depends: glibc (>= 2.12.2)
+Source: http://downloads.sourceforge.net/hdparm/hdparm-9.39.tar.gz

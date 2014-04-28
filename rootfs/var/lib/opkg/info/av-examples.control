@@ -1,0 +1,13 @@
+Package: av-examples
+Version: 1.0-r1
+Description: av-examples version 1.0-r1
+ Linux Audio Video Example Applications
+Section: system
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am3517_evm
+OE: av-examples
+Homepage: https://gforge.ti.com/gf/project/av_examples/
+Depends: glibc (>= 2.12.2)
+Source: git://gitorious.org/av_examples/av_examples.git;protocol=git;branch=master

@@ -1,0 +1,13 @@
+Package: gdbserver
+Version: 7.2-r3
+Description: external-arago-toolchain version 1.0-r3
+ gdb: GNU debugger
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3+
+Architecture: armv7a-vfp-neon-2.6.33
+OE: external-arago-toolchain
+Homepage: unknown
+Depends: glibc (>= 2.12.2)
+Source: file://SUPPORTED

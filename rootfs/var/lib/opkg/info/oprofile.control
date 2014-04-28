@@ -1,0 +1,15 @@
+Package: oprofile
+Version: 0.9.7-r1.0
+Description: System-Wide Profiler
+ OProfile is a system-wide profiler for Linux systems, capable of
+ profiling all running code at low overhead.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+ & GPLv2
+Architecture: armv7a-vfp-neon-2.6.33
+OE: oprofile
+Homepage: http://oprofile.sourceforge.net/news/
+Depends: binutils-symlinks, glibc (>= 2.12.2), libz1 (>= 1.2.7), binutils (>= 2.20.1), libstdc++6 (>= 4.5.3), libpopt0 (>= 1.16), libgcc-s1 (>= 4.5.3)
+Recommends: kernel-vmlinux
+Source: file://opstart.patch file://oprofile-no-query-modules.patch file://oprofile-root.patch file://acinclude.m4 http://downloads.sourceforge.net/oprofile/oprofile-0.9.7.tar.gz

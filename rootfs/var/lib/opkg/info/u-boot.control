@@ -1,0 +1,12 @@
+Package: u-boot
+Version: 2011.09-psp04.06.00.08-r0+gitr1+1e4626f0d5f3bb04ec974e76a5d9029875269d31-arago0
+Description: u-boot version 2011.09-psp04.06.00.08-r0+gitr1+1e4626f0d5f3bb04ec974e76a5d9029875269d31-arago0
+ u-boot bootloader for ARM MPU devices
+Section: bootloaders
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: am3517_evm
+OE: u-boot
+Homepage: http://www.denx.de/wiki/U-Boot/WebHome
+Source: git://arago-project.org/git/projects/u-boot-am33x.git;protocol=git;branch=AM335XPSP_04.06.00.08

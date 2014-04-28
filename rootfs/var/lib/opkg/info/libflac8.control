@@ -1,0 +1,14 @@
+Package: libflac8
+Version: 1.2.1-r2
+Description: Free Lossless Audio Codec
+ FLAC stands for Free Lossless Audio Codec, an audio format similar to
+ MP3, but lossless.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.2 & GPLv2+ & LGPLv2.1+ & BSD
+Architecture: armv7a-vfp-neon-2.6.33
+OE: flac
+Homepage: http://flac.sourceforge.net/
+Depends: libogg0 (>= 1.3.0), glibc (>= 2.12.2)
+Source: http://downloads.sourceforge.net/flac/flac-1.2.1.tar.gz file://disable-xmms-plugin.patch file://flac-gcc43-fixes.patch file://xmms.m4 file://0001-No-AltiVec-on-SPE.patch

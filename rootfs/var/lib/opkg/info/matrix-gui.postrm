@@ -1,0 +1,2 @@
+#!/bin/sh
+update-rc.d $D matrix-gui-2.0 remove

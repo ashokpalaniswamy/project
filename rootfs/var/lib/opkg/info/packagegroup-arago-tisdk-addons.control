@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-addons
+Version: 1.0-r5
+Description: packagegroup-arago-tisdk-addons version 1.0-r5
+ Task to install additional utilities/demos for SDKs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am3517_evm
+OE: packagegroup-arago-tisdk-addons
+Homepage: unknown
+Depends: arm-benchmarks, gdbserver, trace-cmd, canutils, dropbear, am-sysinfo, dt, nbench-byte, oprofile, openssh-sftp-server
+Source: None

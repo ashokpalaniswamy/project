@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-qte
+Version: 1.0-r4
+Description: packagegroup-arago-tisdk-qte version 1.0-r4
+ Task to add Qt embedded related packages
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am3517_evm
+OE: packagegroup-arago-tisdk-qte
+Homepage: unknown
+Depends: qt4-embedded-examples, qt-tstat, quick-playground, qt4-embedded-demos, packagegroup-arago-qte
+Source: None

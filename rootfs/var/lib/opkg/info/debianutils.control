@@ -1,0 +1,13 @@
+Package: debianutils
+Version: 2.30-r0
+Description: debianutils version 2.30-r0
+ Miscellaneous utilities specific to Debian
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & BSD & SMAIL_GPL
+Architecture: armv7a-vfp-neon-2.6.33
+OE: debianutils
+Homepage: unknown
+Depends: glibc (>= 2.12.2)
+Source: ftp://ftp.debian.org/debian/pool/main/d/debianutils/debianutils_2.30.tar.gz

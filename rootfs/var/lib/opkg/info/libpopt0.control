@@ -1,0 +1,13 @@
+Package: libpopt0
+Version: 1.16-r2
+Description: popt version 1.16-r2
+ The popt library for parsing command line options.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7a-vfp-neon-2.6.33
+OE: popt
+Homepage: http://rpm5.org/
+Depends: glibc (>= 2.12.2)
+Source: http://rpm5.org/files/popt/popt-1.16.tar.gz file://pkgconfig_fix.patch file://popt_fix_for_automake-1.12.patch

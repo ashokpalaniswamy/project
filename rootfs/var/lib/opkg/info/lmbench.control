@@ -1,0 +1,13 @@
+Package: lmbench
+Version: 3.0-a9-r0
+Description: lmbench version 3.0-a9-r0
+ Tools for performance analysis.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7a-vfp-neon-2.6.33
+OE: lmbench
+Homepage: http://lmbench.sourceforge.net/
+Depends: glibc (>= 2.12.2), debianutils
+Source: http://downloads.sourceforge.net/lmbench/lmbench-3.0-a9.tgz file://lmbench-run file://rename-line-binary.patch file://update-results-script.patch file://obey-ranlib.patch

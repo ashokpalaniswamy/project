@@ -1,0 +1,13 @@
+Package: iozone3
+Version: 263-r0
+Description: iozone3 version 263-r0
+ Filesystem and Disk Benchmarking Tool
+Section: console/tests
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: iozone3
+Architecture: armv7a-vfp-neon-2.6.33
+OE: iozone3
+Homepage: http://www.iozone.org/
+Depends: glibc (>= 2.12.2)
+Source: http://www.iozone.org/src/current/iozone3_263.tar file://copyright.txt file://fileop-arm.patch

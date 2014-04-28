@@ -1,0 +1,13 @@
+Package: pam-plugin-warn
+Version: 1.1.6-r1
+Description: Linux-PAM (Pluggable Authentication Modules)
+ PAM plugin for -warn
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+ | BSD
+Architecture: armv7a-vfp-neon-2.6.33
+OE: libpam
+Homepage: https://fedorahosted.org/linux-pam/
+Depends: glibc (>= 2.12.2), libpam (>= 1.1.6)
+Source: http://linux-pam.org/library/Linux-PAM-1.1.6.tar.bz2 file://99_pam file://pam.d/* file://libpam-xtests.patch file://destdirfix.patch

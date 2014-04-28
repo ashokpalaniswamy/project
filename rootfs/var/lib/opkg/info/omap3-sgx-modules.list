@@ -1,0 +1,9 @@
+/lib/modules/2.6.37/kernel/
+/lib/modules/2.6.37/kernel/drivers/gpu/pvr/bufferclass_ti.ko
+/lib/modules/2.6.37/kernel/drivers/
+/lib/modules/
+/lib/modules/2.6.37/kernel/drivers/gpu/pvr/
+/lib/modules/2.6.37/kernel/drivers/gpu/
+/lib/modules/2.6.37/
+/lib/modules/2.6.37/kernel/drivers/gpu/pvr/pvrsrvkm.ko
+/lib/modules/2.6.37/kernel/drivers/gpu/pvr/omaplfb.ko

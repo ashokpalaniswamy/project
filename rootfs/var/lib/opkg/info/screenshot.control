@@ -1,0 +1,13 @@
+Package: screenshot
+Version: 1.0-r0
+Description: screenshot version 1.0-r0
+ Screenshot
+Section: graphics
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon-2.6.33
+OE: screenshot
+Homepage: https://gitorious.org/screenshot
+Depends: glibc (>= 2.12.2)
+Source: git://gitorious.org/screenshot/screenshot.git;protocol=git;branch=master

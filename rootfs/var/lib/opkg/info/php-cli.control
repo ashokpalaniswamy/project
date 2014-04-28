@@ -1,0 +1,14 @@
+Package: php-cli
+Version: 5.3.19-r4.0-arago1
+Description: php version 5.3.19-r4.0-arago1
+ A server-side, HTML-embedded scripting language. This package provides
+ the CGI.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PHP-3.0
+Architecture: armv7a-vfp-neon-2.6.33
+OE: php
+Homepage: http://www.php.net
+Depends: libssl1.0.0 (>= 1.0.0j), libxml2 (>= 2.8.0), glibc (>= 2.12.2), libz1 (>= 1.2.7), libmysqlclient16 (>= 5.1.40), libcrypto1.0.0 (>= 1.0.0j), libsqlite3-0 (>= 3.7.13), php, libpam (>= 1.1.6)
+Source: http://www.php.net/distributions/php-5.3.19.tar.bz2 file://acinclude-xml2-config.patch file://php-m4-divert.patch file://0001-php-don-t-use-broken-wrapper-for-mkdir.patch file://iconv.patch file://imap-fix-autofoo.patch file://pear-makefile.patch file://phar-makefile.patch file://php_exec_native.patch file://fix-fpm-cross-compile.patch file://php-fpm.conf file://php-fpm-apache.conf

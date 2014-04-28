@@ -1,0 +1,13 @@
+Package: omap3-sgx-modules
+Version: 4.08.00.02-r123a
+Description: omap3-sgx-modules version 4.08.00.02-r123a
+ Kernel drivers for the PowerVR SGX chipset found in the omap3 SoCs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am3517_evm
+OE: omap3-sgx-modules
+Homepage: unknown
+Depends: update-modules, kernel-image-2.6.37
+Source: http://software-dl.ti.com/dsps/dsps_public_sw/sdo_sb/targetcontent/gfxsdk/4_08_00_02/exports/Graphics_SDK_setuplinux_4_08_00_02_minimal_demos.bin

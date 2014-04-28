@@ -1,0 +1,13 @@
+Package: lighttpd-module-dirlisting
+Version: 1.4.31-r0
+Description: lighttpd version 1.4.31-r0
+ Lighttpd module for dirlisting
+Section: net
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon-2.6.33
+OE: lighttpd
+Homepage: http://www.lighttpd.net/
+Depends: libpcre (>= 8.31), glibc (>= 2.12.2)
+Source: http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.31.tar.bz2 file://index.html.lighttpd file://lighttpd.conf file://lighttpd file://lighttpd_fix_for_automake-1.12.patch

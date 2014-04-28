@@ -1,0 +1,13 @@
+Package: am-sysinfo
+Version: git-r6
+Description: am-sysinfo version git-r6
+ AM SysInfo
+Section: system
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon-2.6.33
+OE: am-sysinfo
+Homepage: https://gforge.ti.com/gf/project/am_sysinfo/
+Depends: glibc (>= 2.12.2)
+Source: git://gitorious.org/am_sysinfo/am_sysinfo.git;protocol=git;branch=master

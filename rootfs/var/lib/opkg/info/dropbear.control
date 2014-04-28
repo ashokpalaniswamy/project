@@ -1,0 +1,14 @@
+Package: dropbear
+Version: 2012.55-r0.1-arago0
+Description: dropbear version 2012.55-r0.1-arago0
+ Dropbear is a lightweight SSH and SCP implementation
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7a-vfp-neon-2.6.33
+OE: dropbear
+Homepage: http://matt.ucc.asn.au/dropbear/dropbear.html
+Depends: update-rc.d, glibc (>= 2.12.2), libz1 (>= 1.2.7)
+Provides: sshd, ssh
+Source: http://matt.ucc.asn.au/dropbear/releases/dropbear-2012.55.tar.gz file://urandom-xauth-changes-to-options.h.patch file://dropbear-0.53.1-static_build_fix.patch file://configure.patch file://fix-2kb-keys.patch file://allow-nopw.patch file://init

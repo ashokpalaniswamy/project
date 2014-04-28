@@ -1,0 +1,8 @@
+kernel/drivers/video/backlight/generic_bl.ko:
+kernel/drivers/scsi/scsi_wait_scan.ko:
+kernel/drivers/usb/gadget/g_ether.ko:
+kernel/drivers/media/video/gspca/gspca_main.ko:
+crypto/ocf/ocf_omap3_cryptok.ko:
+kernel/drivers/gpu/pvr/omaplfb.ko: kernel/drivers/gpu/pvr/pvrsrvkm.ko
+kernel/drivers/gpu/pvr/pvrsrvkm.ko:
+kernel/drivers/gpu/pvr/bufferclass_ti.ko: kernel/drivers/gpu/pvr/pvrsrvkm.ko
